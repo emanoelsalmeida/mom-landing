@@ -1,0 +1,404 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#C0E5EC;
+}
+body img {
+    width: 40vw
+}
+main{
+    background-color: white;
+}
+body h1 {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 35px auto;
+    font-family: 'Lato', sans-serif;
+    color: #9F4079;
+}
+
+header {
+    background-color: #C0E5EC;
+    max-width: 100%
+}
+header img {
+    width: 23vw;
+    display: block;
+    margin: 50px auto;
+}
+header h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #EA7EA4;
+    margin-bottom: 20px
+}
+header h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px
+}
+header h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px
+}
+header iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%
+}
+header button.color {
+    background-color: #9F4079;
+    color: white;
+    border: none;
+    width: 47vw;
+    height: 15vh;
+    font-size: 2vh;
+    display: block;
+    margin: 60px auto;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.ap-product {
+    background-color: white;
+}
+.ap-product h1 {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 35px auto;
+    font-family: 'Lato', sans-serif;
+    color: #9F4079;
+}
+.ap-product b {
+    color: #EEAC81
+}
+.ap-product p {
+    display: block;
+    width: 68%;
+    margin: 20px auto;
+    font-size: 1.2em
+}
+
+.for-who h1 {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 35px auto;
+    font-family: 'Lato', sans-serif;
+    color: #9F4079;
+    font-size: 1.9em;
+}
+.for-who h2 {
+    display: block;
+    width: 68%;
+    margin: 20px auto;
+    text-align: center;
+}
+.for-who h3 {
+    display: block;
+    width: 68%;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 1.3em
+}
+
+.why-this h1 {
+    margin-top: 50px;
+}
+.why-this p {
+    display: block;
+    width: 68%;
+    margin: 40px auto;
+    font-size: 1.2em
+}
+
+.box-social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 240px 240px;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+.social-item {
+    margin-bottom: 50px;
+}
+
+.course h2 {
+    display: block;
+    width: 68%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: 450px 740px 450px 350px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+}
+.box-item {
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.box-item img {
+    display: block;
+    margin: 0 auto;
+    width: 3vw;
+}
+.box-item h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: #AB697C;
+    margin: 20px 0px 0 0; 
+
+}
+.box-item p {
+    text-align: center;
+    font-size: 1.1em;
+        color: black;
+    margin: 20px 0; 
+}
+.box-item p b{
+    color: #EA7EA4;
+}
+
+.how-make{
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 40px;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    margin-top: 50px
+
+}
+.make-item{
+    margin-top: 20px;
+}
+.make-item img{
+    width: 4vw;
+}
+.make-item p{
+    text-align:end;
+}
+.make-item:nth-child(6) p{
+    margin-bottom: 50px
+}
+.course button.color{
+    background-color: #9F4079;
+    color: white;
+    border: none;
+    width: 47vw;
+    height: 15vh;
+    font-size: 2vh;
+    display: block;
+    margin: 100px auto;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.course-box{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 360px;
+    grid-auto-rows: 360px;
+    grid-gap: 40px;
+    justify-content:space-around;
+    align-items: flex-end;
+    width:100%;
+
+}
+.course-item{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.course-item iframe{
+    margin-right: 30px;
+}
+.course-item p{
+    text-align: left;
+    width:40%;
+    align-self: center;
+        
+}
+.course-item p b{
+    color: #9F4079;
+    font-size: 1.2em
+}
+
+.garantia img{
+    width: 20vw;
+     margin-top: 50px;
+    display:block;
+    margin: 0 auto;
+}
+.garantia button.color{
+    background-color: #9F4079;
+    color: white;
+    border: none;
+    width: 47vw;
+    height: 15vh;
+    font-size: 2vh;
+    display: block;
+    margin: 100px auto;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13%;
+    grid-template-rows: 200px 200px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+}
+.about-item {
+    padding: 20px;
+    background-color: #EEAC81;
+    box-sizing: border-box;
+}
+.about-item img {
+    display: block;
+    margin: 0 auto;
+    width: 3vw;
+}
+.about-item h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color:white;
+    margin: 20px 0px 0 0; 
+
+}
+.about-item h4{
+    text-align: center;
+    font-size: 1em;
+    margin: 20px 0px 0 0; 
+}
+
+.grid-about-2{
+    display: grid;
+    grid-template-columns: 13%;
+    grid-template-rows: 200px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    margin-top: 20px;
+}
+.about-item-2 {
+    padding: 20px;
+    background-color: #EEAC81;
+    box-sizing: border-box;
+}
+.about-item-2 img {
+    display: block;
+    margin: 0 auto;
+    width: 3vw;
+}
+.about-item-2 h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    margin: 20px 0px 0 0; 
+
+}
+.about-item-2 h4{
+    text-align: center;
+    font-size: 1em;
+    margin: 20px 0px 0 0; 
+}
+
+footer{
+    height: 5vh;
+    background-color:#9F4079;
+}
+
+footer a{
+    text-decoration: none; 
+    color: white;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    align-content: center;
+}
+
+@media screen and (max-width:900px){
+    header img{
+        width:  40vw;
+    }
+    header button.color{
+        width: 80%;
+    }
+  
+    .box-social{
+        grid-template-columns: 1fr;
+    } 
+    .social-item iframe{
+        width: 80%;
+    }
+    
+    .box-grid, .how-make, .course-box, .about-grid, .grid-about-2 {
+        grid-template-columns: 1fr;
+    }
+   
+    .garantia button.color, .course button.color{
+        width: 90%;
+    }
+    
+    .course-prove h1{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .course-item{
+        flex-direction: column;
+    }
+    .course-item iframe{
+        width: 80%;
+    }
+    .course-item p{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    
+    .make-item p{
+        width: 80%;
+    }
+    
+}
