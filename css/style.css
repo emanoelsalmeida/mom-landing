@@ -401,7 +401,9 @@ footer p{
         width: 80%;
         margin-bottom: 30px;
     }
-    
+    .about-item img{
+        widows: 7vw;
+    }
     .make-item p{
         width: 80%;
     }
